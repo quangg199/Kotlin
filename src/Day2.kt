@@ -24,4 +24,21 @@ fun main() {
     }
     println(resultDay)
     println("End ")
+    println("Bang cuc chuong")
+    println("nhap so")
+    val number = readln().toInt()
+    for(i in 1..10){
+        println("$number * $i = ${number * i}" )
+    }
+   val balance = 1000000
+     val amount = 1200000
+   when{
+        amount > balance -> {
+            println("Giao dich thanh cong + ${ amount - balance }")
+        }
+        else -> {
+            println("Giao dich that bai")
+        }
+    }
+
 }
